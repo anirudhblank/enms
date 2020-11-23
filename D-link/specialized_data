@@ -1,0 +1,22 @@
+
+                              COMMAND 'SHOW VERSION'
+                              **********************
+
+
+
+[C[C[C[C[C[C[C[0Kshow version
+
+
+System MAC Address: 80-26-89-78-82-C0
+
+
+Unit ID    Module Name            Versions
+
+-------  ------------------  ---------------------
+
+   1      DGS-1510-28X        H/W:A1
+
+                              Bootloader:1.00.012
+
+                              Runtime:1.30.007
+
