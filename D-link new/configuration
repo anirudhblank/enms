@@ -1,0 +1,8054 @@
+
+                              COMMAND 'SHOW RUNNING-CONFIG'
+                              *****************************
+
+
+
+[C[C[C[C[C[C[C[0Kshow running-config
+Building configuration...
+
+
+
+Current configuration : 35130 bytes
+
+ 
+
+#-------------------------------------------------------------------------------
+
+#                 DGS-1510-28X Gigabit Ethernet SmartPro Switch
+
+#                                Configuration
+
+#
+
+#                            Firmware: Build 1.30.007
+
+#           Copyright(C) 2015 D-Link Corporation. All rights reserved.
+
+#-------------------------------------------------------------------------------
+
+ 
+
+
+# STACK
+
+
+end
+
+end
+
+
+# DEVICE
+
+configure terminal
+
+end
+
+
+
+# AAA
+
+
+configure terminal
+
+# AAA START
+
+ no aaa new-model
+
+# AAA END
+
+end
+
+
+# PRIVMGMT
+
+configure terminal
+
+# COMMAND LEVEL START
+
+# COMMAND LEVEL END
+
+# LEVEL START
+
+# LEVEL END
+
+# ACCOUNT START
+
+# ACCOUNT END
+
+# LOGIN START
+
+# LOGIN END
+
+ end
+
+
+# CLI
+
+
+configure terminal
+
+ terminal length default 0
+
+end
+
+
+# BASIC
+
+
+configure terminal
+
+ ip http server
+
+ ip http service-port 80 
+
+ no ip http secure-server
+
+ ip http timeout-policy idle 180
+
+ no ignore wizard
+
+end
+
+configure terminal
+
+no snmp-server enable traps snmp warmstart
+
+no snmp-server enable traps snmp coldstart
+
+end
+
+
+# LINE
+
+
+ configure terminal
+
+ end
+
+
+# DEBUG
+
+
+configure terminal
+
+debug reboot on-error
+
+no debug enable
+
+exit
+
+
+# STORM
+
+
+
+# TRAF-SEGMENTATION
+
+
+configure terminal
+
+end
+
+
+# SSL
+
+
+
+# PORT
+
+
+ configure terminal
+
+ interface ethernet1/0/1
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/2
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/3
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/4
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/5
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/6
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/7
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/8
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/9
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/10
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/11
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/12
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/13
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/14
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/15
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/16
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/17
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/18
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/19
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/20
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/21
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/22
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/23
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/24
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/25
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/26
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/27
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/28
+
+ description abhishek
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+
+# LACP
+
+
+end
+
+configure terminal
+
+end
+
+
+# SIM
+
+
+end
+
+configure terminal
+
+end
+
+
+# DDM
+
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+exit
+
+ interface ethernet 1/0/26
+
+exit
+
+ interface ethernet 1/0/27
+
+exit
+
+ interface ethernet 1/0/28
+
+exit
+
+end
+
+
+# TR
+
+configure terminal
+
+end
+
+
+
+# STP
+
+
+end
+
+configure terminal
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+spanning-tree mst configuration
+
+exit
+
+end
+
+
+# LOOP_DETECT
+
+
+configure terminal
+
+end
+
+
+# VLAN
+
+
+configure terminal
+
+end
+
+configure terminal
+
+end
+
+
+# ACL
+
+
+end
+
+configure terminal 
+
+interface ethernet 1/0/1
+
+exit 
+
+interface ethernet 1/0/2
+
+exit 
+
+interface ethernet 1/0/3
+
+exit 
+
+interface ethernet 1/0/4
+
+exit 
+
+interface ethernet 1/0/5
+
+exit 
+
+interface ethernet 1/0/6
+
+exit 
+
+interface ethernet 1/0/7
+
+exit 
+
+interface ethernet 1/0/8
+
+exit 
+
+interface ethernet 1/0/9
+
+exit 
+
+interface ethernet 1/0/10
+
+exit 
+
+interface ethernet 1/0/11
+
+exit 
+
+interface ethernet 1/0/12
+
+exit 
+
+interface ethernet 1/0/13
+
+exit 
+
+interface ethernet 1/0/14
+
+exit 
+
+interface ethernet 1/0/15
+
+exit 
+
+interface ethernet 1/0/16
+
+exit 
+
+interface ethernet 1/0/17
+
+exit 
+
+interface ethernet 1/0/18
+
+exit 
+
+interface ethernet 1/0/19
+
+exit 
+
+interface ethernet 1/0/20
+
+exit 
+
+interface ethernet 1/0/21
+
+exit 
+
+interface ethernet 1/0/22
+
+exit 
+
+interface ethernet 1/0/23
+
+exit 
+
+interface ethernet 1/0/24
+
+exit 
+
+interface ethernet 1/0/25
+
+exit 
+
+interface ethernet 1/0/26
+
+exit 
+
+interface ethernet 1/0/27
+
+exit 
+
+interface ethernet 1/0/28
+
+exit
+
+end
+
+
+# PORT_SECURITY
+
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ switchport port-security
+
+end
+
+
+# QOS
+
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+
+# QOSPOLICY
+
+
+end
+
+configure terminal
+
+end
+
+
+# ERPS
+
+
+end
+
+configure terminal
+
+end
+
+
+# MIRROR
+
+
+configure terminal
+
+end
+
+
+# DOT1X
+
+
+
+# POE
+
+
+configure terminal
+
+end
+
+
+# FDB
+
+
+end
+
+configure terminal
+
+end
+
+
+# IPSG
+
+
+
+# DoS
+
+
+configure terminal
+
+end
+
+
+# IPV6SG
+
+
+
+# NDP_INSPEC
+
+
+
+# RA_GUARD
+
+
+
+# DHCPV6_GUARD
+
+
+
+# IPv6_SNOOPING
+
+
+
+# ARPSpoofingPrevention
+
+
+
+# BPDU_PROTECTION
+
+
+configure terminal
+
+end
+
+
+# CPU_PROTECT
+
+
+configure terminal
+
+end
+
+
+
+# BANNER_PROMP
+
+
+
+# SSH
+
+
+configure terminal
+
+ ip ssh server
+
+ ssh user admin authentication-method password 
+
+end
+
+
+# TELNETS
+
+
+configure terminal
+
+ip telnet server 
+
+ip telnet service-port 23 
+
+end
+
+
+# DNSRESOLVER
+
+
+configure terminal
+
+no ip domain lookup
+
+end
+
+
+# PING
+
+
+
+# NTP
+
+
+end
+
+configure terminal
+
+ntp authenticate
+
+no ntp update-calendar
+
+ntp max-associations 32
+
+no service ntp
+
+end
+
+
+# IP
+
+
+configure terminal
+
+interface vlan 1
+
+ip address 10.83.150.11 255.255.254.0
+
+exit
+
+end
+
+
+# AutoCfg
+
+
+end
+
+configure terminal
+
+no autoconfig enable 
+
+end
+
+
+# SNMPv3
+
+
+configure terminal
+
+no snmp-server community public
+
+no snmp-server community private
+
+no snmp-server user initial v3
+
+no snmp-server group initial v3
+
+no snmp-server view restricted
+
+no snmp-server view CommunityView
+
+exit
+
+configure terminal
+
+snmp-server
+
+no snmp-server enable traps
+
+snmp-server name Switch
+
+exit
+
+configure terminal
+
+snmp-server engineID local 800000ab038026897882c000
+
+exit
+
+configure terminal
+
+snmp-server view restricted 1.3.6.1.2.1.1 included
+
+snmp-server view restricted 1.3.6.1.2.1.11 included
+
+snmp-server view restricted 1.3.6.1.6.3.10.2.1 included
+
+snmp-server view restricted 1.3.6.1.6.3.11.2.1 included
+
+snmp-server view restricted 1.3.6.1.6.3.15.1.1 included
+
+snmp-server view CommunityView 1 included
+
+snmp-server view CommunityView 1.3.6.1.6.3 excluded
+
+snmp-server view CommunityView 1.3.6.1.6.3.1 included
+
+exit
+
+configure terminal
+
+snmp-server group public v1 read CommunityView notify CommunityView 
+
+snmp-server group public v2c read CommunityView notify CommunityView 
+
+snmp-server group initial v3  noauth read restricted notify restricted 
+
+snmp-server group private v1 read CommunityView write CommunityView notify CommunityView 
+
+snmp-server group private v2c read CommunityView write CommunityView notify CommunityView 
+
+exit
+
+configure terminal
+
+snmp-server community public  view CommunityView ro 
+
+snmp-server community private  view CommunityView rw 
+
+exit
+
+configure terminal
+
+snmp-server user initial initial v3 
+
+exit
+
+configure terminal
+
+no snmp-server enable traps snmp authentication 
+
+no snmp-server enable traps snmp linkup 
+
+no snmp-server enable traps snmp linkdown 
+
+exit
+
+configure terminal
+
+snmp-server service-port 161
+
+exit
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+no snmp-server trap-sending disable 
+
+end 
+
+configure terminal
+
+no snmp-server response broadcast-request
+
+exit
+
+configure terminal
+
+snmp-server source-interface traps Vlan 1
+
+exit
+
+
+# SNTP
+
+
+configure terminal
+
+clock timezone + 0  0
+
+no clock summer-time
+
+sntp interval 720
+
+no sntp enable
+
+exit
+
+
+# UDP_HELPER
+
+
+configure terminal
+
+ip forward-protocol udp 37 
+
+ip forward-protocol udp 42 
+
+ip forward-protocol udp 49 
+
+ip forward-protocol udp 53 
+
+ip forward-protocol udp 69 
+
+ip forward-protocol udp 137 
+
+ip forward-protocol udp 138 
+
+end
+
+
+# SYSLOG
+
+
+configure terminal
+
+exit
+
+
+# JWAC
+
+
+configure terminal
+
+end
+
+
+# WEB_AUTHENTICATION
+
+
+configure terminal
+
+end
+
+
+# PowerSaving
+
+
+configure terminal
+
+no power-saving link-detection
+
+no dim led
+
+no power-saving hibernation
+
+no power-saving dim-led
+
+no power-saving port-shutdown
+
+interface ethernet 1/0/1
+
+exit
+
+interface ethernet 1/0/2
+
+exit
+
+interface ethernet 1/0/3
+
+exit
+
+interface ethernet 1/0/4
+
+exit
+
+interface ethernet 1/0/5
+
+exit
+
+interface ethernet 1/0/6
+
+exit
+
+interface ethernet 1/0/7
+
+exit
+
+interface ethernet 1/0/8
+
+exit
+
+interface ethernet 1/0/9
+
+exit
+
+interface ethernet 1/0/10
+
+exit
+
+interface ethernet 1/0/11
+
+exit
+
+interface ethernet 1/0/12
+
+exit
+
+interface ethernet 1/0/13
+
+exit
+
+interface ethernet 1/0/14
+
+exit
+
+interface ethernet 1/0/15
+
+exit
+
+interface ethernet 1/0/16
+
+exit
+
+interface ethernet 1/0/17
+
+exit
+
+interface ethernet 1/0/18
+
+exit
+
+interface ethernet 1/0/19
+
+exit
+
+interface ethernet 1/0/20
+
+exit
+
+interface ethernet 1/0/21
+
+exit
+
+interface ethernet 1/0/22
+
+exit
+
+interface ethernet 1/0/23
+
+exit
+
+interface ethernet 1/0/24
+
+exit
+
+interface ethernet 1/0/25
+
+exit
+
+interface ethernet 1/0/26
+
+exit
+
+interface ethernet 1/0/27
+
+exit
+
+interface ethernet 1/0/28
+
+exit
+
+interface ethernet 1/0/1
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/2
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/3
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/4
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/5
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/6
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/7
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/8
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/9
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/10
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/11
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/12
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/13
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/14
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/15
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/16
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/17
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/18
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/19
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/20
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/21
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/22
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/23
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/24
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/25
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/26
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/27
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/28
+
+no power-saving eee
+
+exit
+
+end
+
+
+# LLDP
+
+
+ end
+
+configure terminal
+
+exit
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+ interface ethernet 1/0/1
+
+exit
+
+ interface ethernet 1/0/2
+
+exit
+
+ interface ethernet 1/0/3
+
+exit
+
+ interface ethernet 1/0/4
+
+exit
+
+ interface ethernet 1/0/5
+
+exit
+
+ interface ethernet 1/0/6
+
+exit
+
+ interface ethernet 1/0/7
+
+exit
+
+ interface ethernet 1/0/8
+
+exit
+
+ interface ethernet 1/0/9
+
+exit
+
+ interface ethernet 1/0/10
+
+exit
+
+ interface ethernet 1/0/11
+
+exit
+
+ interface ethernet 1/0/12
+
+exit
+
+ interface ethernet 1/0/13
+
+exit
+
+ interface ethernet 1/0/14
+
+exit
+
+ interface ethernet 1/0/15
+
+exit
+
+ interface ethernet 1/0/16
+
+exit
+
+ interface ethernet 1/0/17
+
+exit
+
+ interface ethernet 1/0/18
+
+exit
+
+ interface ethernet 1/0/19
+
+exit
+
+ interface ethernet 1/0/20
+
+exit
+
+ interface ethernet 1/0/21
+
+exit
+
+ interface ethernet 1/0/22
+
+exit
+
+ interface ethernet 1/0/23
+
+exit
+
+ interface ethernet 1/0/24
+
+exit
+
+ interface ethernet 1/0/25
+
+exit
+
+ interface ethernet 1/0/26
+
+exit
+
+ interface ethernet 1/0/27
+
+exit
+
+ interface ethernet 1/0/28
+
+exit
+
+exit
+
+
+# TFTP
+
+
+configure terminal
+
+end
+
+
+# MAC_Based_Access_Control
+
+
+
+# MCFILTER-G2
+
+
+configure terminal
+
+end
+
+
+# COMPOUND_AUTHENTICATION
+
+
+configure terminal
+
+end
+
+
+# IGMP-SNOOPING
+
+
+configure terminal
+
+end
+
+
+# MLD-SNOOPING
+
+
+configure terminal
+
+end
+
+
+# DHCPSNP
+
+
+configure terminal
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+ end
+
+configure terminal
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+ end
+
+
+# RMON
+
+
+end
+
+configure terminal
+
+snmp-server enable traps rmon falling-alarm 
+
+snmp-server enable traps rmon rising-alarm 
+
+end
+
+
+# DAI
+
+
+configure terminal
+
+end
+
+
+# IMPB
+
+
+
+# DHCP_SERVER
+
+
+configure terminal
+
+end
+
+
+# NDP
+
+
+configure terminal
+
+interface vlan 1
+
+exit
+
+end
+
+
+# ROUTE6
+
+
+
+# ROUTE
+
+
+configure terminal
+
+ip route 0.0.0.0 0.0.0.0 10.83.150.3 primary
+
+end
+
+
+# ARP
+
+
+configure terminal
+
+ip arp gratuitous
+
+interface vlan 1
+
+exit
+
+end
+
+
+# DHCP_RELAY
+
+
+configure terminal
+
+ip dhcp relay information policy replace
+
+ip dhcp relay information option format circuit-id default 
+
+ip dhcp relay information option format remote-id default 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+ interface vlan 1
+
+end
+
+
+# RELAY6
+
+
+configure terminal
+
+interface vlan 1
+
+exit
+
+end
+
+
+# SFLOW
+
+
+end
+
+configure terminal
+
+end
+
+
+# IPMROUTE
+
+
+
+# DDP
+
+
+configure terminal
+
+interface ethernet 1/0/1
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+ddp
+
+end
+
+configure terminal
+
+ddp
+
+end
+
+configure terminal
+
+ddp report-timer 30
+
+end
+
+
+# ERRDISABLE
+
+
+configure terminal
+
+end
+
+
+# DHCPClient
+
+
+
+#-------------------------------------------------------------------
+
+#             End of configuration file for DGS-1510-28X
+
+#-------------------------------------------------------------------
+
+
+
+                              COMMAND 'SHOW STARTUP'
+                              **********************
+
+
+
+[C[C[C[C[C[C[C[0Kshow startup
+ 
+
+#-------------------------------------------------------------------------------
+
+#                 DGS-1510-28X Gigabit Ethernet SmartPro Switch
+
+#                                Configuration
+
+#
+
+#                            Firmware: Build 1.30.007
+
+#           Copyright(C) 2015 D-Link Corporation. All rights reserved.
+
+#-------------------------------------------------------------------------------
+
+ 
+
+
+# STACK
+
+
+end
+
+end
+
+
+# DEVICE
+
+configure terminal
+
+end
+
+
+
+# AAA
+
+
+configure terminal
+
+# AAA START
+
+ no aaa new-model
+
+# AAA END
+
+end
+
+
+# PRIVMGMT
+
+configure terminal
+
+# COMMAND LEVEL START
+
+# COMMAND LEVEL END
+
+# LEVEL START
+
+# LEVEL END
+
+# ACCOUNT START
+
+# ACCOUNT END
+
+# LOGIN START
+
+# LOGIN END
+
+ end
+
+
+# CLI
+
+
+configure terminal
+
+ terminal length default 0
+
+end
+
+
+# BASIC
+
+
+configure terminal
+
+ ip http server
+
+ ip http service-port 80 
+
+ no ip http secure-server
+
+ ip http timeout-policy idle 180
+
+ no ignore wizard
+
+end
+
+configure terminal
+
+no snmp-server enable traps snmp warmstart
+
+no snmp-server enable traps snmp coldstart
+
+end
+
+
+# LINE
+
+
+ configure terminal
+
+ end
+
+
+# DEBUG
+
+
+configure terminal
+
+debug reboot on-error
+
+no debug enable
+
+exit
+
+
+# STORM
+
+
+
+# TRAF-SEGMENTATION
+
+
+configure terminal
+
+end
+
+
+# SSL
+
+
+
+# PORT
+
+
+ configure terminal
+
+ interface ethernet1/0/1
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/2
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/3
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/4
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/5
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/6
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/7
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/8
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/9
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/10
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/11
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/12
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/13
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/14
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/15
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/16
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/17
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/18
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/19
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/20
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/21
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/22
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/23
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/24
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/25
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/26
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/27
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+ configure terminal
+
+ interface ethernet1/0/28
+
+ description abhishek
+
+ flowcontrol off
+
+ no speed auto-downgrade 
+
+ snmp trap link-status 
+
+ end
+
+
+# LACP
+
+
+end
+
+configure terminal
+
+end
+
+
+# SIM
+
+
+end
+
+configure terminal
+
+end
+
+
+# DDM
+
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+exit
+
+ interface ethernet 1/0/26
+
+exit
+
+ interface ethernet 1/0/27
+
+exit
+
+ interface ethernet 1/0/28
+
+exit
+
+end
+
+
+# TR
+
+configure terminal
+
+end
+
+
+
+# STP
+
+
+end
+
+configure terminal
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+spanning-tree mst configuration
+
+exit
+
+end
+
+
+# LOOP_DETECT
+
+
+configure terminal
+
+end
+
+
+# VLAN
+
+
+configure terminal
+
+end
+
+configure terminal
+
+end
+
+
+# ACL
+
+
+end
+
+configure terminal 
+
+interface ethernet 1/0/1
+
+exit 
+
+interface ethernet 1/0/2
+
+exit 
+
+interface ethernet 1/0/3
+
+exit 
+
+interface ethernet 1/0/4
+
+exit 
+
+interface ethernet 1/0/5
+
+exit 
+
+interface ethernet 1/0/6
+
+exit 
+
+interface ethernet 1/0/7
+
+exit 
+
+interface ethernet 1/0/8
+
+exit 
+
+interface ethernet 1/0/9
+
+exit 
+
+interface ethernet 1/0/10
+
+exit 
+
+interface ethernet 1/0/11
+
+exit 
+
+interface ethernet 1/0/12
+
+exit 
+
+interface ethernet 1/0/13
+
+exit 
+
+interface ethernet 1/0/14
+
+exit 
+
+interface ethernet 1/0/15
+
+exit 
+
+interface ethernet 1/0/16
+
+exit 
+
+interface ethernet 1/0/17
+
+exit 
+
+interface ethernet 1/0/18
+
+exit 
+
+interface ethernet 1/0/19
+
+exit 
+
+interface ethernet 1/0/20
+
+exit 
+
+interface ethernet 1/0/21
+
+exit 
+
+interface ethernet 1/0/22
+
+exit 
+
+interface ethernet 1/0/23
+
+exit 
+
+interface ethernet 1/0/24
+
+exit 
+
+interface ethernet 1/0/25
+
+exit 
+
+interface ethernet 1/0/26
+
+exit 
+
+interface ethernet 1/0/27
+
+exit 
+
+interface ethernet 1/0/28
+
+exit
+
+end
+
+
+# PORT_SECURITY
+
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ switchport port-security
+
+end
+
+
+# QOS
+
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+end
+
+
+# QOSPOLICY
+
+
+end
+
+configure terminal
+
+end
+
+
+# ERPS
+
+
+end
+
+configure terminal
+
+end
+
+
+# MIRROR
+
+
+configure terminal
+
+end
+
+
+# DOT1X
+
+
+
+# POE
+
+
+configure terminal
+
+end
+
+
+# FDB
+
+
+end
+
+configure terminal
+
+end
+
+
+# IPSG
+
+
+
+# DoS
+
+
+configure terminal
+
+end
+
+
+# IPV6SG
+
+
+
+# NDP_INSPEC
+
+
+
+# RA_GUARD
+
+
+
+# DHCPV6_GUARD
+
+
+
+# IPv6_SNOOPING
+
+
+
+# ARPSpoofingPrevention
+
+
+
+# BPDU_PROTECTION
+
+
+configure terminal
+
+end
+
+
+# CPU_PROTECT
+
+
+configure terminal
+
+end
+
+
+
+# BANNER_PROMP
+
+
+
+# SSH
+
+
+configure terminal
+
+ ip ssh server
+
+ ssh user admin authentication-method password 
+
+end
+
+
+# TELNETS
+
+
+configure terminal
+
+ip telnet server 
+
+ip telnet service-port 23 
+
+end
+
+
+# DNSRESOLVER
+
+
+configure terminal
+
+no ip domain lookup
+
+end
+
+
+# PING
+
+
+
+# NTP
+
+
+end
+
+configure terminal
+
+ntp authenticate
+
+no ntp update-calendar
+
+ntp max-associations 32
+
+no service ntp
+
+end
+
+
+# IP
+
+
+configure terminal
+
+interface vlan 1
+
+ip address 10.83.150.11 255.255.254.0
+
+exit
+
+end
+
+
+# AutoCfg
+
+
+end
+
+configure terminal
+
+no autoconfig enable 
+
+end
+
+
+# SNMPv3
+
+
+configure terminal
+
+no snmp-server community public
+
+no snmp-server community private
+
+no snmp-server user initial v3
+
+no snmp-server group initial v3
+
+no snmp-server view restricted
+
+no snmp-server view CommunityView
+
+exit
+
+configure terminal
+
+snmp-server
+
+no snmp-server enable traps
+
+snmp-server name Switch
+
+exit
+
+configure terminal
+
+snmp-server engineID local 800000ab038026897882c000
+
+exit
+
+configure terminal
+
+snmp-server view restricted 1.3.6.1.2.1.1 included
+
+snmp-server view restricted 1.3.6.1.2.1.11 included
+
+snmp-server view restricted 1.3.6.1.6.3.10.2.1 included
+
+snmp-server view restricted 1.3.6.1.6.3.11.2.1 included
+
+snmp-server view restricted 1.3.6.1.6.3.15.1.1 included
+
+snmp-server view CommunityView 1 included
+
+snmp-server view CommunityView 1.3.6.1.6.3 excluded
+
+snmp-server view CommunityView 1.3.6.1.6.3.1 included
+
+exit
+
+configure terminal
+
+snmp-server group public v1 read CommunityView notify CommunityView 
+
+snmp-server group public v2c read CommunityView notify CommunityView 
+
+snmp-server group initial v3  noauth read restricted notify restricted 
+
+snmp-server group private v1 read CommunityView write CommunityView notify CommunityView 
+
+snmp-server group private v2c read CommunityView write CommunityView notify CommunityView 
+
+exit
+
+configure terminal
+
+snmp-server community public  view CommunityView ro 
+
+snmp-server community private  view CommunityView rw 
+
+exit
+
+configure terminal
+
+snmp-server user initial initial v3 
+
+exit
+
+configure terminal
+
+no snmp-server enable traps snmp authentication 
+
+no snmp-server enable traps snmp linkup 
+
+no snmp-server enable traps snmp linkdown 
+
+exit
+
+configure terminal
+
+snmp-server service-port 161
+
+exit
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+no snmp-server trap-sending disable 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+no snmp-server trap-sending disable 
+
+end 
+
+configure terminal
+
+no snmp-server response broadcast-request
+
+exit
+
+configure terminal
+
+snmp-server source-interface traps Vlan 1
+
+exit
+
+
+# SNTP
+
+
+configure terminal
+
+clock timezone + 0  0
+
+no clock summer-time
+
+sntp interval 720
+
+no sntp enable
+
+exit
+
+
+# UDP_HELPER
+
+
+configure terminal
+
+ip forward-protocol udp 37 
+
+ip forward-protocol udp 42 
+
+ip forward-protocol udp 49 
+
+ip forward-protocol udp 53 
+
+ip forward-protocol udp 69 
+
+ip forward-protocol udp 137 
+
+ip forward-protocol udp 138 
+
+end
+
+
+# SYSLOG
+
+
+configure terminal
+
+exit
+
+
+# JWAC
+
+
+configure terminal
+
+end
+
+
+# WEB_AUTHENTICATION
+
+
+configure terminal
+
+end
+
+
+# PowerSaving
+
+
+configure terminal
+
+no power-saving link-detection
+
+no dim led
+
+no power-saving hibernation
+
+no power-saving dim-led
+
+no power-saving port-shutdown
+
+interface ethernet 1/0/1
+
+exit
+
+interface ethernet 1/0/2
+
+exit
+
+interface ethernet 1/0/3
+
+exit
+
+interface ethernet 1/0/4
+
+exit
+
+interface ethernet 1/0/5
+
+exit
+
+interface ethernet 1/0/6
+
+exit
+
+interface ethernet 1/0/7
+
+exit
+
+interface ethernet 1/0/8
+
+exit
+
+interface ethernet 1/0/9
+
+exit
+
+interface ethernet 1/0/10
+
+exit
+
+interface ethernet 1/0/11
+
+exit
+
+interface ethernet 1/0/12
+
+exit
+
+interface ethernet 1/0/13
+
+exit
+
+interface ethernet 1/0/14
+
+exit
+
+interface ethernet 1/0/15
+
+exit
+
+interface ethernet 1/0/16
+
+exit
+
+interface ethernet 1/0/17
+
+exit
+
+interface ethernet 1/0/18
+
+exit
+
+interface ethernet 1/0/19
+
+exit
+
+interface ethernet 1/0/20
+
+exit
+
+interface ethernet 1/0/21
+
+exit
+
+interface ethernet 1/0/22
+
+exit
+
+interface ethernet 1/0/23
+
+exit
+
+interface ethernet 1/0/24
+
+exit
+
+interface ethernet 1/0/25
+
+exit
+
+interface ethernet 1/0/26
+
+exit
+
+interface ethernet 1/0/27
+
+exit
+
+interface ethernet 1/0/28
+
+exit
+
+interface ethernet 1/0/1
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/2
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/3
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/4
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/5
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/6
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/7
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/8
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/9
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/10
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/11
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/12
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/13
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/14
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/15
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/16
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/17
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/18
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/19
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/20
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/21
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/22
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/23
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/24
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/25
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/26
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/27
+
+no power-saving eee
+
+exit
+
+interface ethernet 1/0/28
+
+no power-saving eee
+
+exit
+
+end
+
+
+# LLDP
+
+
+ end
+
+configure terminal
+
+exit
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+ interface ethernet 1/0/1
+
+exit
+
+ interface ethernet 1/0/2
+
+exit
+
+ interface ethernet 1/0/3
+
+exit
+
+ interface ethernet 1/0/4
+
+exit
+
+ interface ethernet 1/0/5
+
+exit
+
+ interface ethernet 1/0/6
+
+exit
+
+ interface ethernet 1/0/7
+
+exit
+
+ interface ethernet 1/0/8
+
+exit
+
+ interface ethernet 1/0/9
+
+exit
+
+ interface ethernet 1/0/10
+
+exit
+
+ interface ethernet 1/0/11
+
+exit
+
+ interface ethernet 1/0/12
+
+exit
+
+ interface ethernet 1/0/13
+
+exit
+
+ interface ethernet 1/0/14
+
+exit
+
+ interface ethernet 1/0/15
+
+exit
+
+ interface ethernet 1/0/16
+
+exit
+
+ interface ethernet 1/0/17
+
+exit
+
+ interface ethernet 1/0/18
+
+exit
+
+ interface ethernet 1/0/19
+
+exit
+
+ interface ethernet 1/0/20
+
+exit
+
+ interface ethernet 1/0/21
+
+exit
+
+ interface ethernet 1/0/22
+
+exit
+
+ interface ethernet 1/0/23
+
+exit
+
+ interface ethernet 1/0/24
+
+exit
+
+ interface ethernet 1/0/25
+
+exit
+
+ interface ethernet 1/0/26
+
+exit
+
+ interface ethernet 1/0/27
+
+exit
+
+ interface ethernet 1/0/28
+
+exit
+
+exit
+
+
+# TFTP
+
+
+configure terminal
+
+end
+
+
+# MAC_Based_Access_Control
+
+
+
+# MCFILTER-G2
+
+
+configure terminal
+
+end
+
+
+# COMPOUND_AUTHENTICATION
+
+
+configure terminal
+
+end
+
+
+# IGMP-SNOOPING
+
+
+configure terminal
+
+end
+
+
+# MLD-SNOOPING
+
+
+configure terminal
+
+end
+
+
+# DHCPSNP
+
+
+configure terminal
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+ end
+
+configure terminal
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+ end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+ end
+
+
+# RMON
+
+
+end
+
+configure terminal
+
+snmp-server enable traps rmon falling-alarm 
+
+snmp-server enable traps rmon rising-alarm 
+
+end
+
+
+# DAI
+
+
+configure terminal
+
+end
+
+
+# IMPB
+
+
+
+# DHCP_SERVER
+
+
+configure terminal
+
+end
+
+
+# NDP
+
+
+configure terminal
+
+interface vlan 1
+
+exit
+
+end
+
+
+# ROUTE6
+
+
+
+# ROUTE
+
+
+configure terminal
+
+ip route 0.0.0.0 0.0.0.0 10.83.150.3 primary
+
+end
+
+
+# ARP
+
+
+configure terminal
+
+ip arp gratuitous
+
+interface vlan 1
+
+exit
+
+end
+
+
+# DHCP_RELAY
+
+
+configure terminal
+
+ip dhcp relay information policy replace
+
+ip dhcp relay information option format circuit-id default 
+
+ip dhcp relay information option format remote-id default 
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/1
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/2
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/3
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/4
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/5
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/6
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/7
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/8
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/9
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/10
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/11
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/12
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/13
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/14
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/15
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/16
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/17
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/18
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/19
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/20
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/21
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/22
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/23
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/24
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/25
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/26
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/27
+
+end
+
+configure terminal
+
+ interface ethernet 1/0/28
+
+end
+
+configure terminal
+
+ interface vlan 1
+
+end
+
+
+# RELAY6
+
+
+configure terminal
+
+interface vlan 1
+
+exit
+
+end
+
+
+# SFLOW
+
+
+end
+
+configure terminal
+
+end
+
+
+# IPMROUTE
+
+
+
+# DDP
+
+
+configure terminal
+
+interface ethernet 1/0/1
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/2
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/3
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/4
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/5
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/6
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/7
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/8
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/9
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/10
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/11
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/12
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/13
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/14
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/15
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/16
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/17
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/18
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/19
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/20
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/21
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/22
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/23
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/24
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/25
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/26
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/27
+
+ddp
+
+end
+
+configure terminal
+
+interface ethernet 1/0/28
+
+ddp
+
+end
+
+configure terminal
+
+ddp
+
+end
+
+configure terminal
+
+ddp report-timer 30
+
+end
+
+
+# ERRDISABLE
+
+
+configure terminal
+
+end
+
+
+# DHCPClient
+
+
+
+#-------------------------------------------------------------------
+
+#             End of configuration file for DGS-1510-28X
+
+#-------------------------------------------------------------------
